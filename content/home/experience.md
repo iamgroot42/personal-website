@@ -16,34 +16,31 @@ subtitle:
 #   Refer to https://wowchemy.com/docs/customization/#date-format
 date_format: Jan 2006
 
+# <!-- Previously, I obtained my Bachelor's degree in Computer Science from IIIT Delhi, where I worked at the PreCog research lab and IAB research lab. Post my graduation, I spent an amazing year at Microsoft India, working in STCI on amazing technologies around conversational agents and question-answering systems. -->
+
 # Experiences.
 #   Add/remove as many `experience` items below as you like.
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
+  - title: Graduate Research Assistant
+    company: University of Virginia
+    company_url: 'https://engineering.virginia.edu/departments/computer-science'
     company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+    location: Virginia, USA
+    date_start: '2019-08-25'
     date_end: ''
-    description: |2-
-        Responsibilities include:
+    description: Research on privacy and security in Machine Learning.
         
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
+  - title: Applied Scientist
+    company: Microsoft
+    company_url: 'https://www.microsoft.com/en-in'
     company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    location: Hyderabad, India
+    date_start: '2018-05-25'
+    date_end: '2019-7-19'
+    description: Worked on [Project Personality Chat](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base?tabs=v1) and [Microsoft Icecaps](https://www.microsoft.com/en-us/research/project/microsoft-icecaps/).
 
 design:
   columns: '2'
