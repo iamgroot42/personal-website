@@ -29,7 +29,7 @@ experience:
     company_url: 'https://engineering.virginia.edu/departments/computer-science'
     company_logo: org-gc
     location: Virginia, USA
-    date_start: '2019-08-25'
+    date_start: 'August 2019'
     date_end: ''
     description: Research on privacy and security in Machine Learning.
         
@@ -38,8 +38,8 @@ experience:
     company_url: 'https://www.microsoft.com/en-in'
     company_logo: org-x
     location: Hyderabad, India
-    date_start: '2018-05-25'
-    date_end: '2019-7-19'
+    date_start: 'May 2018'
+    date_end: 'July 2019'
     description: Worked on [Project Personality Chat](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base?tabs=v1) and [Microsoft Icecaps](https://www.microsoft.com/en-us/research/project/microsoft-icecaps/).
 
 design:
