@@ -1,39 +1,19 @@
 ---
-title: "QnAMaker : Data to Bot in 2 Minutes"
+title: "A Trustworthy, Responsible and Interpretable System to Handle Chit-Chat in Conversational Bots"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - Parag Agrawal
+- author
 - Tulasi Menon
-- Aya Kamel
-- Michel Naim
-- Chaikesh Chouragade
-- Gurvinder Singh
-- Rohan Kulkarni
-- admin
-- Sahithi Katakam
-- Vineet Pratik
-- Prakul Bansal
-- Simerpreet Kaur
-- Neha Rajput
-- Anand Duggal
-- Achraf Chalabi
-- Prashant Choudhari
-- Somi Reddy Satti
-- Niranjan Nayak
 
-# Author notes (optional)
-# author_notes:
-# - "Equal contribution"
-# - "Equal contribution"
-
-date: "2020-06-09T00:00:00Z"
+date: "2018-11-23T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2020-06-09T00:00:00Z"
+publishDate: "2018-11-23T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -42,15 +22,15 @@ publishDate: "2020-06-09T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *The Web Conference, 2020 (Demo Track)*
-publication_short: In *WWW 2020 (Demo Track)*
+publication: In *AAAI 2018 Workshop on Reasoning and Learning for Human-Machine Dialogues (DEEP-DIAL18)*
+publication_short: In *DEEPDIAL Workshop, AAAI 2018*
 
-abstract: Despite vast research in adversarial examples, the root causes of model susceptibility are not well understood. Instead of looking at attack-specific robustness, we propose a notion that evaluates the sensitivity of individual neurons in terms of how robust the model’s output is to direct perbturbations of that neuron’s output. Analyzing models from this perspective reveals distinctive characteristics of standard as well as adversarially-trained robust models, and leads to several curious results. In our experiments on CIFAR-10 and ImageNet, we find that attacks using a loss function that targets just a single sensitive neuron find adversarial examples nearly as effectively as ones that target the full model. We analyze the properties of these sensitive neurons to propose a regularization term that can help a model achieve robustness to a variety of different perturbation constraints while maintaining accuracy on natural data distributions
+abstract: "Most often, chat-bots are built to solve the purpose of a search engine or a human assistant: Their primary goal is to provide information to the user or help them complete a task. However, these chat-bots are incapable of responding to unscripted queries like” Hi, what’s up”,” What’s your favorite food”. Human evaluation judgments show that 4 humans come to a consensus on the intent of a given query which is from chat domain only 77% of the time, thus making it evident how non-trivial this task is. In our work, we show why it is difficult to break the chitchat space into clearly defined intents. We propose a system to handle this task in chat-bots, keeping in mind scalability, interpretability, appropriateness, trustworthiness, relevance and coverage. Our work introduces a pipeline for query understanding in chitchat using hierarchical intents as well as a way to use seq-seq auto-generation models in professional bots. We explore an interpretable model for chat domain detection and also show how various components such as adult/offensive classification, grammars/regex patterns, curated personality based responses, generic guided evasive responses and response generation models can be combined in a scalable way to solve this problem."
 
 # Summary. An optional shortened abstract.
-summary: System-design description paper for [QnAMaker](https://www.qnamaker.ai/).
+summary: System description for Project Personality Chat
 
-tags: ["conversation system", "text"]
+tags: ["sentiment analysis", "text", "conversation system"]
 
 # Display this page in the Featured widget?
 featured: false
@@ -60,11 +40,11 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://dl.acm.org/doi/pdf/10.1145/3366424.3383525'
+url_pdf: 'https://www.microsoft.com/en-us/research/publication/a-trustworthy-responsible-and-interpretable-system-to-handle-chit-chat-in-conversational-bots/'
 url_code: ''
 url_dataset: ''
 url_poster: ''
-url_project: 'https://www.qnamaker.ai/'
+url_project: 'https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base?tabs=v1'
 url_slides: ''
 url_source: ''
 url_video: ''

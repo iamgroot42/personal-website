@@ -1,39 +1,25 @@
 ---
-title: "QnAMaker : Data to Bot in 2 Minutes"
+title: "Hardening Deep Neural Networks via Adversarial Model Cascades"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Parag Agrawal
-- Tulasi Menon
-- Aya Kamel
-- Michel Naim
-- Chaikesh Chouragade
-- Gurvinder Singh
-- Rohan Kulkarni
+- Deepak Vijaykeerthy
 - admin
-- Sahithi Katakam
-- Vineet Pratik
-- Prakul Bansal
-- Simerpreet Kaur
-- Neha Rajput
-- Anand Duggal
-- Achraf Chalabi
-- Prashant Choudhari
-- Somi Reddy Satti
-- Niranjan Nayak
+- Sameep Mehta
+- Ponnurangam Kumaraguru
 
 # Author notes (optional)
-# author_notes:
-# - "Equal contribution"
-# - "Equal contribution"
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
 
-date: "2020-06-09T00:00:00Z"
+date: "2019-07-14T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2020-06-09T00:00:00Z"
+publishDate: "2019-07-14T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -42,15 +28,15 @@ publishDate: "2020-06-09T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *The Web Conference, 2020 (Demo Track)*
-publication_short: In *WWW 2020 (Demo Track)*
+publication: In *International Joint Conference on Neural Networks, 2019*
+publication_short: In *IJCNN, 2019*
 
-abstract: Despite vast research in adversarial examples, the root causes of model susceptibility are not well understood. Instead of looking at attack-specific robustness, we propose a notion that evaluates the sensitivity of individual neurons in terms of how robust the model’s output is to direct perbturbations of that neuron’s output. Analyzing models from this perspective reveals distinctive characteristics of standard as well as adversarially-trained robust models, and leads to several curious results. In our experiments on CIFAR-10 and ImageNet, we find that attacks using a loss function that targets just a single sensitive neuron find adversarial examples nearly as effectively as ones that target the full model. We analyze the properties of these sensitive neurons to propose a regularization term that can help a model achieve robustness to a variety of different perturbation constraints while maintaining accuracy on natural data distributions
+abstract: Deep neural networks (DNNs) are vulnerable to malicious inputs crafted by an adversary to produce erroneous outputs. Works on securing neural networks against adversarial examples achieve high empirical robustness on simple datasets such as MNIST. However, these techniques are inadequate when empirically tested on complex data sets such as CIFAR-10 and SVHN. Further, existing techniques are designed to target specific attacks and fail to generalize across attacks. We propose Adversarial Model Cascades (AMC) as a way to tackle the above inadequacies. Our approach trains a cascade of models sequentially where each model is optimized to be robust towards a mixture of multiple attacks. Ultimately, it yields a single model which is secure against a wide range of attacks; namely FGSM, Elastic, Virtual Adversarial Perturbations and Madry. On an average, AMC increases the model’s empirical robustness against various attacks simultaneously, by a significant margin (of 6.225% for MNIST, 5.075% for SVHN and 2.65% for CIFAR-10 ). At the same time, the model’s performance on non-adversarial inputs is comparable to the state-of-the-art models.
 
 # Summary. An optional shortened abstract.
-summary: System-design description paper for [QnAMaker](https://www.qnamaker.ai/).
+summary: We propose an adversarial defense that is simultaneously robust to multiple attacks, and evaluate its efficacy over benchmark datasets.
 
-tags: ["conversation system", "text"]
+tags: ["adversarial"]
 
 # Display this page in the Featured widget?
 featured: false
@@ -60,12 +46,12 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://dl.acm.org/doi/pdf/10.1145/3366424.3383525'
-url_code: ''
+url_pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8851970'
+url_code: 'https://github.com/iamgroot42/Hardening-Deep-Neural-Networks-via-Adversarial-Model-Cascades'
 url_dataset: ''
 url_poster: ''
-url_project: 'https://www.qnamaker.ai/'
-url_slides: ''
+url_project: ''
+url_slides: 'https://drive.google.com/file/d/1KOvwXt1NHWjFqQktJm7-0a7NctA-bKw5/view'
 url_source: ''
 url_video: ''
 

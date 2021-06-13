@@ -1,28 +1,15 @@
 ---
-title: "QnAMaker : Data to Bot in 2 Minutes"
+title: "Towards Understanding Crisis Events On Online Social Networks Through Pictures"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Parag Agrawal
-- Tulasi Menon
-- Aya Kamel
-- Michel Naim
-- Chaikesh Chouragade
-- Gurvinder Singh
-- Rohan Kulkarni
+- Prateek Dewan
 - admin
-- Sahithi Katakam
-- Vineet Pratik
-- Prakul Bansal
-- Simerpreet Kaur
-- Neha Rajput
-- Anand Duggal
-- Achraf Chalabi
-- Prashant Choudhari
-- Somi Reddy Satti
-- Niranjan Nayak
+- Varun Bharadhwaj
+- Aditi Mithal
+- Ponnurangam Kumaraguru
 
 # Author notes (optional)
 # author_notes:
@@ -42,15 +29,15 @@ publishDate: "2020-06-09T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *The Web Conference, 2020 (Demo Track)*
-publication_short: In *WWW 2020 (Demo Track)*
+publication: In *International Conference on Advances in Social Networks Analysis and Mining, 2017*
+publication_short: In *ASONAM 2017*
 
-abstract: Despite vast research in adversarial examples, the root causes of model susceptibility are not well understood. Instead of looking at attack-specific robustness, we propose a notion that evaluates the sensitivity of individual neurons in terms of how robust the model’s output is to direct perbturbations of that neuron’s output. Analyzing models from this perspective reveals distinctive characteristics of standard as well as adversarially-trained robust models, and leads to several curious results. In our experiments on CIFAR-10 and ImageNet, we find that attacks using a loss function that targets just a single sensitive neuron find adversarial examples nearly as effectively as ones that target the full model. We analyze the properties of these sensitive neurons to propose a regularization term that can help a model achieve robustness to a variety of different perturbation constraints while maintaining accuracy on natural data distributions
+abstract: —Extensive research has been conducted to identify, analyze and measure popular topics and public sentiment on Online Social Networks (OSNs) through text, especially during crisis events. However, little work has been done to understand such events through pictures posted on these networks. Given the potential of visual content for influencing users’ thoughts and emotions, we perform a large-scale analysis to study and compare popular themes and sentiment across images and textual content posted on Facebook during the terror attacks that took place in Paris in 2015. We propose a generalizable and highly automated 3-tier pipeline which utilizes state-of-the-art computer vision techniques to extract high-level human understandable image descriptors. We used these descriptors to associate themes and sentiment with images, and analyzed over 57,000 images related to the Paris Attacks. We discovered multiple visual themes which were popular in images, but were not identifiable through text. We also uncovered instances of misinformation and false flag (conspiracy) theories among popular image themes, which were not prominent in user-generated textual content. Further, our analysis revealed that while textual content posted after the attacks reflected negative sentiment, images inspired positive sentiment. These findings suggest that large-scale mining of images posted on OSNs during crisis, and other news-making events can significantly augment textual content to understand such events.
 
 # Summary. An optional shortened abstract.
-summary: System-design description paper for [QnAMaker](https://www.qnamaker.ai/).
+summary: Analysis of 2015 Paris terror attacks to identify trends for multi-modal misinformation detection
 
-tags: ["conversation system", "text"]
+tags: ["social media"]
 
 # Display this page in the Featured widget?
 featured: false
@@ -60,11 +47,11 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://dl.acm.org/doi/pdf/10.1145/3366424.3383525'
+url_pdf: 'https://precog.iiitd.edu.in/Publications_files/Dewan_Towards_ASONAM17.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
-url_project: 'https://www.qnamaker.ai/'
+url_project: 'https://precog.iiitd.edu.in/blog/2016/08/01/imagesononlinesocialmedia/'
 url_slides: ''
 url_source: ''
 url_video: ''
