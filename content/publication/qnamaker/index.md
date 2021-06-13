@@ -42,8 +42,8 @@ publishDate: "2020-06-09T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *WWW 2020 (Demo Track)*
-publication_short: In *The Web Conference, 2020 (Demo Track)*
+publication: In *The Web Conference, 2020 (Demo Track)*
+publication_short: In *WWW 2020 (Demo Track)*
 
 abstract: Despite vast research in adversarial examples, the root causes of model susceptibility are not well understood. Instead of looking at attack-specific robustness, we propose a notion that evaluates the sensitivity of individual neurons in terms of how robust the model’s output is to direct perbturbations of that neuron’s output. Analyzing models from this perspective reveals distinctive characteristics of standard as well as adversarially-trained robust models, and leads to several curious results. In our experiments on CIFAR-10 and ImageNet, we find that attacks using a loss function that targets just a single sensitive neuron find adversarial examples nearly as effectively as ones that target the full model. We analyze the properties of these sensitive neurons to propose a regularization term that can help a model achieve robustness to a variety of different perturbation constraints while maintaining accuracy on natural data distributions
 
