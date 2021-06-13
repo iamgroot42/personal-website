@@ -27,7 +27,7 @@ experience:
   - title: Graduate Research Assistant
     company: University of Virginia
     company_url: 'https://engineering.virginia.edu/departments/computer-science'
-    company_logo: org-gc
+    company_logo: uva
     location: Virginia, USA
     date_start: '2019-08-25'
     date_end: ''
@@ -36,7 +36,7 @@ experience:
   - title: Applied Scientist
     company: Microsoft
     company_url: 'https://www.microsoft.com/en-in'
-    company_logo: org-x
+    company_logo: microsoft
     location: Hyderabad, India
     date_start: '2018-05-25'
     date_end: '2019-07-24'
