@@ -16,11 +16,11 @@ authors:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2020-06-09T00:00:00Z"
+date: "2017-06-09T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2020-06-09T00:00:00Z"
+publishDate: "2017-06-09T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -32,7 +32,7 @@ publication_types: ["1"]
 publication: In *International Conference on Advances in Social Networks Analysis and Mining, 2017*
 publication_short: In *ASONAM 2017*
 
-abstract: —Extensive research has been conducted to identify, analyze and measure popular topics and public sentiment on Online Social Networks (OSNs) through text, especially during crisis events. However, little work has been done to understand such events through pictures posted on these networks. Given the potential of visual content for influencing users’ thoughts and emotions, we perform a large-scale analysis to study and compare popular themes and sentiment across images and textual content posted on Facebook during the terror attacks that took place in Paris in 2015. We propose a generalizable and highly automated 3-tier pipeline which utilizes state-of-the-art computer vision techniques to extract high-level human understandable image descriptors. We used these descriptors to associate themes and sentiment with images, and analyzed over 57,000 images related to the Paris Attacks. We discovered multiple visual themes which were popular in images, but were not identifiable through text. We also uncovered instances of misinformation and false flag (conspiracy) theories among popular image themes, which were not prominent in user-generated textual content. Further, our analysis revealed that while textual content posted after the attacks reflected negative sentiment, images inspired positive sentiment. These findings suggest that large-scale mining of images posted on OSNs during crisis, and other news-making events can significantly augment textual content to understand such events.
+abstract: Extensive research has been conducted to identify, analyze and measure popular topics and public sentiment on Online Social Networks (OSNs) through text, especially during crisis events. However, little work has been done to understand such events through pictures posted on these networks. Given the potential of visual content for influencing users’ thoughts and emotions, we perform a large-scale analysis to study and compare popular themes and sentiment across images and textual content posted on Facebook during the terror attacks that took place in Paris in 2015. We propose a generalizable and highly automated 3-tier pipeline which utilizes state-of-the-art computer vision techniques to extract high-level human understandable image descriptors. We used these descriptors to associate themes and sentiment with images, and analyzed over 57,000 images related to the Paris Attacks. We discovered multiple visual themes which were popular in images, but were not identifiable through text. We also uncovered instances of misinformation and false flag (conspiracy) theories among popular image themes, which were not prominent in user-generated textual content. Further, our analysis revealed that while textual content posted after the attacks reflected negative sentiment, images inspired positive sentiment. These findings suggest that large-scale mining of images posted on OSNs during crisis, and other news-making events can significantly augment textual content to understand such events.
 
 # Summary. An optional shortened abstract.
 summary: Analysis of 2015 Paris terror attacks to identify trends for multi-modal misinformation detection

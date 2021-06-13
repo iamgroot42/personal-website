@@ -36,8 +36,8 @@ publishDate: "2019-07-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *ACL, 2019 (Demo)*
-publication_short: In *Annual Meeting of the Association for Computational Linguistics, 2019 (Demo)*
+publication: In *Annual Meeting of the Association for Computational Linguistics, 2019 (Demo)*
+publication_short: In *ACL, 2019 (Demo)*
 
 abstract: "The Intelligent Conversation Engine: Code and Pre-trained Systems (Microsoft Icecaps) is an upcoming open-source natural language processing repository. Icecaps wraps TensorFlow functionality in a modular component-based architecture, presenting an intuitive and flexible paradigm for constructing sophisticated learning setups. Capabilities include multitask learning between models with shared parameters, upgraded language model decoding features, a range of built-in architectures, and a user-friendly data processing pipeline. The system is targeted toward conversational tasks, exploring diverse response generation, coherence, and knowledge grounding. Icecaps also provides pre-trained conversational models that can be either used directly or loaded for fine-tuning or bootstrapping other models; these models power an online demo of our framework."
 
@@ -54,7 +54,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2006.16469.pdf'
+url_pdf: 'https://www.aclweb.org/anthology/P19-3021.pdf'
 url_code: 'https://github.com/microsoft/icecaps'
 url_dataset: ''
 url_poster: ''

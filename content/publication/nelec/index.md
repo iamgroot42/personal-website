@@ -6,7 +6,7 @@ title: "NELEC at SemEval-2019 Task 3: Think Twice Before Going Deep"
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - Parag Agrawal
-- author
+- admin
 
 # Author notes (optional)
 # author_notes:
@@ -32,7 +32,7 @@ publication_short: In *SemEval, NAACL 2019*
 abstract: Existing Machine Learning techniques yield close to human performance on text-based classification tasks. However, the presence of multi-modal noise in chat data such as emoticons, slang, spelling mistakes, code-mixed data, etc. makes existing deep-learning solutions perform poorly. The inability of deep-learning systems to robustly capture these covariates puts a cap on their performance. We propose NELEC (Neural and Lexical Combiner), a system which elegantly combines textual and deep-learning based methods for sentiment classification. We evaluate our system as part of the third task of 'Contextual Emotion Detection in Text' as part of SemEval-2019. Our system performs significantly better than the baseline, as well as our deep-learning model benchmarks. It achieved a micro-averaged F1 score of 0.7765, ranking 3rd on the test-set leader-board.
 
 # Summary. An optional shortened abstract.
-summary: System description for winning entry to task 'Contextual Emotion Detection in Text' of SemEval 2019
+summary: System description for entry to task 'Contextual Emotion Detection in Text' of SemEval 2019
 
 tags: ["sentiment analysis", "text"]
 
