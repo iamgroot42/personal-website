@@ -6,7 +6,7 @@ title: "A Trustworthy, Responsible and Interpretable System to Handle Chit-Chat 
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - Parag Agrawal
-- author
+- admin
 - Tulasi Menon
 
 date: "2018-11-23T00:00:00Z"
