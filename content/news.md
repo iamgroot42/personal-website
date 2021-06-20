@@ -25,23 +25,12 @@ design:
 
 ## 2021
 
-- Reviewer:
-  - ICLR 2022
-  - EMNLP 2021
-  - NeurIPS 2021,
-  - ICCV 2021,
-  - ACL-IJCNLP 2021
-  - ICLR 2021 Workshop on Security and Safety in Machine Learning Systems
-  - CVPR 2021 Workshop on Adversarial Machine Learning in Real-World Computer Vision Systems and Online Challenges (AML-CV)
-
+- Reviewer: ICLR (2022), EMNLP (2021), NeurIPS (2021), ICCV (2021), ACL-IJCNLP (2021), ICLR 2021 Workshop on Security and Safety in Machine Learning Systems, CVPR 2021 Workshop on Adversarial Machine Learning in Real-World Computer Vision Systems and Online Challenges (AML-CV)
 - TA for [CS4501: Introduction to Computer Vision](https://www.vicenteordonez.com/vision/) this Spring
 
 ## 2020
 
-- Reviewer:
-  - ICLR 2021 ([Outstanding Reviewer](https://www.google.com/url?q=https%3A%2F%2Ficlr.cc%2FConferences%2F2021%2FReviewers&sa=D))
-  - ECCV 2020 Workshop on Adversarial Robustness in the Real World 
-  - ACL 2020
+- Reviewer: ACL (2020), ICLR (2021, [Outstanding Reviewer](https://www.google.com/url?q=https%3A%2F%2Ficlr.cc%2FConferences%2F2021%2FReviewers&sa=D)), ECCV 2020 Workshop on Adversarial Robustness in the Real World
 - (August) TA for 'CS 6501/4501: Vision and Language' this Fall
 - (Dec) I will be giving a talk on Property Inference Attacks at the 5th Microsoft Security Data Science Colloquium
 - (October) Co-President of [Animal Justice Advocates at UVa](http://sites.google.com/view/ajauva/). Look forward to helping our University transition to cruelty-free practices and alternatives!
