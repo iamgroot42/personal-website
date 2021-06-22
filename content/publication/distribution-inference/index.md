@@ -37,7 +37,7 @@ summary: We propose a general definition for property inference attacks that sup
 tags: ["property inference"]
 
 # Display this page in the Featured widget?
-featured: true
+# featured: true
 
 # Custom links (uncomment lines below)
 # links:
