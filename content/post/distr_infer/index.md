@@ -48,12 +48,12 @@ WEP Inc., a (imaginary) hospital, trains and releases a machine learning regress
 
 Having seen via an example how property inference can be harmful, we move towards formalizing such distributional inference attacks. We first describe the cryptographic game for membership inference proposed by Yeom et al. ([Privacy Risk in Machine Learning: Analyzing the Connection to Overfitting](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8429311)):
 
-{{< figure src="yeom.png" >}}
+{{< figure src="yeom.svg" >}}
 
 In this game, the victim samples a dataset $S$ from the distribution $\mathcal{D}$ and trains a model $M$ on it. It then samples some data-point $z$ from either $S$ or $\mathcal{D}$, based on $b \xleftarrow{R}\{0,1\}$. The adversary then tries to infer $b$ using algorithm $H$, given access to $(z, \mathcal{D}, M)$. This cryptographic game captures the intuitive notion of membership inference. It focuses on a particular dataset and sample: inferring whether a given data point was part of training data.
 On the other hand, property inference focuses on properties of the underlying distribution ($\mathcal{D}$), not the dataset ($S$) itself. To capture property inference, we propose a similar cryptographic game. Instead of differentiating between the sources of a specific data point ($S$ or $\mathcal{D}$), we propose distinguishing between distributions ($\mathcal{D}_0$, $\mathcal{D}_1$).
 
-{{< figure src="distr.png" >}}
+{{< figure src="distr.svg" >}}
 
 A model trainer $\mathcal{B}$ samples a dataset $D$ from either of the distributions $\mathcal{D}_0$, $\mathcal{D}_1$. These distributions can be obtained from the publicly know distribution D by applying functions $\mathcal{G}_0$, $\mathcal{G}_1$ respectively, that transform distributions (and represent the "property" an adversary might care about). Given a model trained on this dataset $D$, can an adversary infer which of $\mathcal{D}_0$, $\mathcal{D}_1$ the model trainer used to sample its dataset? Frameworks like Differential Privacy do not apply here: the adversary here cares about statistical properties of the distribution $\mathcal{D}$, not details about a particular sample.
 
