@@ -3,7 +3,7 @@ title: Reassessing adversarial training with fixed data augmentation
 subtitle: "A recent [bug discovery](https://tanelp.github.io/posts/a-bug-that-plagues-thousands-of-open-source-ml-projects/) on Pytorch+Numpy got me thinking: how much does this bug impact adversarial robustness?"
 
 # Summary for listings and search engines
-summary: Re-running adversarial training with fixed data augmentation.
+summary: "A recent [bug discovery](https://tanelp.github.io/posts/a-bug-that-plagues-thousands-of-open-source-ml-projects/) on Pytorch+Numpy got me thinking: how much does this bug impact adversarial robustness?"
 
 # Link this post with a project
 projects: []
