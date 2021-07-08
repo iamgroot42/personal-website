@@ -23,11 +23,11 @@ publishDate: "2021-06-07T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *arXiv*
-publication_short: In *arXiv*
+publication: In *Workshop on Theory and Practice of Differential Privacy, ICML 2021*
+publication_short: In *TPDP, ICML 2021*
 
 abstract: Property inference attacks reveal statistical properties about a training set but are difficult to distinguish from the primary purposes of statistical machine learning, which is to produce models that capture statistical properties about a distribution. Motivated by Yeom et al.’s membership inference framework, we propose a formal and generic definition of property inference attacks. The proposed notion describes attacks that can distinguish between possible training distributions, extending beyond previous property inference attacks that infer the ratio of a particular type of data in the training data set. In this paper, we show how our definition captures previous property inference attacks as well as a new attack that reveals the average degree of nodes of a training graph and report on experiments giving insight into the potential risks of property inference attacks.
 
