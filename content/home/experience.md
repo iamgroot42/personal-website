@@ -47,8 +47,8 @@ experience:
     company_url: 'https://www.microsoft.com/en-in'
     company_logo: microsoft
     location: Hyderabad, India
-    date_start: '2017-07-06'
-    date_end: '2017-05-24'
+    date_start: '2017-05-24'
+    date_end: '2017-07-06'
     description: Worked on making AI-powered game bots, part of Bing STCI.
 
 design:
