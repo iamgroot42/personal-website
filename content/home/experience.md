@@ -31,7 +31,7 @@ experience:
     location: Virginia, USA
     date_start: '2019-08-25'
     date_end: ''
-    description: Research on privacy and security in Machine Learning.
+    description: Research on privacy and security in Machine Learning at [SRG](https://uvasrg.github.io/).
         
   - title: Applied Scientist
     company: Microsoft
@@ -41,6 +41,15 @@ experience:
     date_start: '2018-05-25'
     date_end: '2019-07-24'
     description: Worked on [Project Personality Chat](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base?tabs=v1) and [Microsoft Icecaps](https://www.microsoft.com/en-us/research/project/microsoft-icecaps/).
+  
+  - title: Software Development Intern
+    company: Microsoft
+    company_url: 'https://www.microsoft.com/en-in'
+    company_logo: microsoft
+    location: Hyderabad, India
+    date_start: '2017-07-06'
+    date_end: '2017-05-24'
+    description: Worked on making AI-powered game bots, part of Bing STCI.
 
 design:
   columns: '2'
