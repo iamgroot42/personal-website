@@ -47,7 +47,7 @@ tags: ["property inference"]
 url_pdf: 'https://arxiv.org/pdf/2106.03699.pdf'
 url_code: 'https://github.com/iamgroot42/distribution_inference'
 url_dataset: ''
-url_poster: ''
+url_poster: 'TPDP_Poster.png'
 url_project: ''
 url_slides: ''
 url_source: ''
