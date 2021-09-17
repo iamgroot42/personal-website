@@ -32,6 +32,15 @@ experience:
     date_start: '2019-08-25'
     date_end: ''
     description: Research on privacy and security in Machine Learning at [SRG](https://uvasrg.github.io/).
+  
+  - title: Research Assistant (Internship)
+    company: University of Virginia
+    company_url: 'https://engineering.virginia.edu/departments/computer-science'
+    company_logo: uva
+    location: Massachusetts, USA (remote)
+    date_start: '2021-09-27'
+    date_end: ''
+    description: Investigating aspects of Privacy in Machine Learning systems and building Federate Learning systems.
         
   - title: Applied Scientist
     company: Microsoft
