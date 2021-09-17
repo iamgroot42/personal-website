@@ -34,7 +34,7 @@ experience:
     description: Research on privacy and security in Machine Learning at [SRG](https://uvasrg.github.io/).
   
   - title: Research Assistant (Internship)
-    company: University of Virginia
+    company: Oracle
     company_url: 'https://www.oracle.com/oracle-for-research/'
     company_logo: oracle
     location: Massachusetts, USA (remote)
