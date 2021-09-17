@@ -35,8 +35,8 @@ experience:
   
   - title: Research Assistant (Internship)
     company: University of Virginia
-    company_url: 'https://engineering.virginia.edu/departments/computer-science'
-    company_logo: uva
+    company_url: 'https://www.oracle.com/oracle-for-research/'
+    company_logo: oracle
     location: Massachusetts, USA (remote)
     date_start: '2021-09-27'
     date_end: ''
