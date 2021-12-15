@@ -14,7 +14,7 @@ organizations:
   url: https://engineering.virginia.edu/departments/computer-science
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include security and privacy in machine learning.
+bio: My research interests include privacy and security in machine learning.
 
 # Interests to show in About widget
 interests:
@@ -68,6 +68,6 @@ highlight_name: true
 ---
 
 
-I am a third year PhD student in the Computer Science Department at the [University of Virginia](https://www.virginia.edu/), advised by Professor [David Evans](http://www.cs.virginia.edu/~evans/). My primary area of focus is security/privacy in machine learning.
+I am a third year PhD candidate in the Computer Science Department at the [University of Virginia](https://www.virginia.edu/), advised by Professor [David Evans](http://www.cs.virginia.edu/~evans/). My primary area of focus is security/privacy in machine learning.
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
