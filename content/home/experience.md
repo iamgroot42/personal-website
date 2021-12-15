@@ -39,7 +39,7 @@ experience:
     company_logo: oracle
     location: Massachusetts, USA (remote)
     date_start: '2021-09-27'
-    date_end: ''
+    date_end: '2021-12-17'
     description: Investigating aspects of Privacy in Machine Learning systems and building Federate Learning systems.
         
   - title: Applied Scientist
