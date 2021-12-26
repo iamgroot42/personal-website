@@ -25,7 +25,7 @@ design:
 
 ## 2022
 
-- Reviewer duties: ICLR, CVPR
+- Reviewer duties: ICLR, CVPR, ARR (October)
 
 ## 2021
 
