@@ -45,10 +45,30 @@ Our department has a nice collection of 16 servers, each with 4 GPUs. While this
 
 The structure for these environments here is pretty similar to what we have for the CS servers. You can load up specific modules using `module load`. Since sbatch files get passed onto in a new bash environment, it's always a good idea to have all your `module load` and other related commands (like `conda activate`) in your `.bashrc` file so that you don't have to worry about adding all of them to every sbatch file.
 
+For referencem, here's what I added to my `.bashrc`:
+```bash
+module load singularity
+module load cudatoolkit/11.0.3-py3.8
+module load cuda/11.4.2
+module load cudnn/8.2.4.15
+module load anaconda/2020.11-py3.8
+
+#Identify whether using Rivanna version (load data accordingly)
+export ISRIVANNA=1
+
+# Conda-init related stuff that is auto-populated
+conda activate phd # phd is the name of my environment
+```
+
 The only downside here is that storage is not shared with the other CS servers: you must either commit to using only Rivanna or only CS servers, or make sure you regularly sync your generated code (which is straightforward, thanks to Git) and data (not so trivial).
 <div class="alert alert-danger" role="alert">
   Also, the Rivanna cluster has a cronjob of sorts that <b>deletes files</b> that aren't accessed for more than <b>90 days</b>.
 </div>
+
+There are two storage directories: `/home` and `/scratch`. The former has a 50GB quota limit with weekly snapshots for backup, while the `/scratch` directory has a quota of 10TB/350,000 files (whichever is more). As mentioned on the [Rivanna Storage](https://www.rc.virginia.edu/userinfo/rivanna/storage/) page:
+> Slurm jobs run against /home will be slower than those run against /scratch
+
+Thus, it is advisable to have all your scripts and data in the `/scratch` directory, even your Anaconda environment. You can specify a location for your Conda environment with the `--prefix <PATH>` flag while running `conda create`.
 
 # Writing SBATCH scripts
 
