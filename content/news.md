@@ -25,7 +25,7 @@ design:
 
 ## 2022
 
-- Reviewer duties: ICLR, CVPR, ARR, ICML
+- Reviewer duties: ICLR, CVPR, ARR, ICML, TPAMI
 - (February) TA for [CS4501: Computational Biology / Biological Computing](https://computingbiology.github.io) this Spring
 
 ## 2021
