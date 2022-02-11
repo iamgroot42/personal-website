@@ -219,3 +219,32 @@ Sometimes you may want to test your code out for smaller cases and/or debug, and
 ```
 
 This command here would open an interactive session (capped at 30 minutes, so that you don't accidentally leave it on and get charged for it) with your job, run on a machine with the RTX2080 GPU card and an allocation of 8GB memory.
+
+## Adjuting resources based on job efficiency
+
+It may so happen that you over-estimate the resources needed for your job, which can lead to higher allocation consumption as well as your scripts running at a later time (because of busy resources). A good starting point is to look at runs of your completed scripts:
+
+```console
+you@machine:~$ sacct --starttime=2022-02-04 --endtime=2022-02-11 --state COMPLETED  -u <your_username>
+         JobID    JobName  Partition    Account  AllocCPUS      State ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+32259190       job1        gpu     <acc_name>         16  COMPLETED      0:0 
+32259191       job2        gpu     <acc_name>         16  COMPLETED      0:0 
+```
+
+This command here, for instance, will give you a list of all completed jobs that started and finished between 4th and 11th February, 2022. You can then pick any jobID that you like and look at its CPU and memory usage efficiency:
+
+```console
+you@machine:~$ seff 32259190
+Job ID: 32259190
+Cluster: shen
+User/Group: <your_username>/users
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 1-20:54:32
+CPU Efficiency: 21.72% of 8-14:47:28 core-walltime
+Job Wall-clock time: 12:55:28
+Memory Utilized: 5.72 GB
+Memory Efficiency: 17.86% of 32.00 GB
+```
