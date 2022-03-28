@@ -27,6 +27,7 @@ design:
 
 - Reviewer duties: ICLR, CVPR, ARR, ICML, TPAMI
 - (February) TA for [CS4501: Computational Biology / Biological Computing](https://computingbiology.github.io) this Spring
+- (March) Took a Guest Lecture on [Privacy in Genomics](https://computingbiology.github.io/class18/) for [CS4501](<https://computingbiology.github.io>) this Spring).
 
 ## 2021
 
