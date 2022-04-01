@@ -248,3 +248,13 @@ Job Wall-clock time: 12:55:28
 Memory Utilized: 5.72 GB
 Memory Efficiency: 17.86% of 32.00 GB
 ```
+
+## Running GPU-based scripts
+
+It's good practice to specify the GPU card you want to use for your job. Most users might be familiar with `CUDA_VISIBLE_DEVICES` and setting this value before their experiments, or via code (in PyTorch, for instance). However, the machines that SLURM runs scripts on have shared GPUs that are visible to each job for some reason. As a result, even if you request one GPU and your job is run on a machine with 8 GPUs, using `export CUDA_VISIBLE_DEVICES=0` will, instead of doing nothng (since you'd expecte the visible compute environment to have only one GPU), the job will run on the 1st GPU, even if it's not the one that's free.
+
+I found this out the hard way (not mentioned on the website documentation, but the support staff were nice enough to tell me about it)- I submitted 8-10 jobs and they were all really slow, since they all got assigned the same machine and the `CUDA_VISIBLE_DEVICES` made them run on the same GPU.
+
+<div class="alert alert-danger" role="alert">
+  tl;dr Do not set CUDA_VISIBLE_DEVICES (via envionment variable or within code) for your jobs- SLURM manages that for you.
+</div>
