@@ -25,7 +25,7 @@ design:
 
 ## 2022
 
-- Reviewer duties: ICLR ([Highlighted Reviewer](https://iclr.cc/Conferences/2022/Reviewers)), CVPR, ARR, ICML, TPAMI
+- Reviewer duties: NeurIPS, ICLR, ICML, CVPR, ARR, TPAMI, ICLR Workshop on Socially Responsible Machine Learning
 - (February) TA for [CS4501: Computational Biology / Biological Computing](https://computingbiology.github.io) this Spring
 - (March) Took a Guest Lecture on [Privacy in Genomics](https://computingbiology.github.io/class18/) for [CS4501](<https://computingbiology.github.io>) this Spring.
 
