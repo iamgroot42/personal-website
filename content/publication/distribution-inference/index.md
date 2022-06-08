@@ -34,7 +34,7 @@ abstract: Property inference attacks reveal statistical properties about a train
 # Summary. An optional shortened abstract.
 summary: We propose a general definition for property inference attacks that supports arbitrary properties. Experiments reveal how similar distributions can have starkly different attack success rates, and simple attacks can yield non-trivial accuracy.
 
-tags: ["property inference"]
+tags: ["property inference", "distribution inference"]
 
 # Display this page in the Featured widget?
 # featured: true
