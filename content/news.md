@@ -30,7 +30,7 @@ design:
 ## 2022
 
 - Reviewer duties: NeurIPS, ICLR, ICML, CVPR, ARR, TPAMI, ICLR Workshop on Socially Responsible Machine Learning
-- (September) Gave a remote talk on our ongoing work with distribution inference at the [University of Melbourne](https://cis.unimelb.edu.au/).
+- (September) Gave remote talks on our ongoing work with distribution inference at the [University of Melbourne](https://cis.unimelb.edu.au/) and at [IIITH](https://precog.iiit.ac.in/). 
 - (July) Presented our work on [Formalizing and Estimating Distribution Inference Risks](https://www.anshumansuri.me/publication/formest/) at [PETS](https://www.anshumansuri.me/publication/formest/) in Sydney!
 - (March) Took a Guest Lecture on [Privacy in Genomics](https://computingbiology.github.io/s22/class18/) for [CS4501](https://computingbiology.github.io/s22/) this Spring.
 - (February) TA for [CS4501: Computational Biology / Biological Computing](https://computingbiology.github.io) this Spring
