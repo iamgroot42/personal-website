@@ -30,6 +30,7 @@ design:
 ## 2022
 
 - Reviewer duties: NeurIPS, ICLR, ICML, CVPR, ARR, TPAMI, ICLR Workshop on Socially Responsible Machine Learning
+- (December) Passed my PhD Dissertation Proposal! 
 - (November) Appointed Social Rep for the CS Department Graduate Student Group ([CSGSG](https://csgsg.org/)) for Spring 2023.
 - (September) Gave remote talks on our ongoing work with distribution inference at the [University of Melbourne](https://cis.unimelb.edu.au/) and at [IIITH](https://precog.iiit.ac.in/). 
 - (July) Presented our work on [Formalizing and Estimating Distribution Inference Risks](https://www.anshumansuri.me/publication/formest/) at [PETS](https://www.anshumansuri.me/publication/formest/) in Sydney!
