@@ -46,8 +46,8 @@ tags: ["property inference", "distribution inference"]
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://arxiv.org/pdf/2212.07591.pdf'
+url_code: 'https://github.com/iamgroot42/dissecting_distribution_inference'
 url_dataset: ''
 url_poster: ''
 url_project: ''
