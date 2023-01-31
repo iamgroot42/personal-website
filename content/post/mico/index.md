@@ -448,13 +448,10 @@ For submissions, I set `use_all` to True (since the autoML classifier already do
 
 ## Feature Inspection
 
-A closer look (via permutation importance) at the features shows some interesting trends. First,the range of gradient alignment values across reference models seem to be most useful (as opposed to min, max, abs-sum). Features like LiRA and gradient norms in the extended-epoch simulation also seem to be important.
+A closer look (via permutation importance) at the features shows some interesting trends.
 
 ```python
 from sklearn.inspection import plot_partial_dependence, permutation_importance
-
-r = permutation_importance(meta_clfs["cifar10_inf"], X_test, y_test, n_repeats=10, random_state=0)
-sort_idx = r.importances_mean.argsort()[::-1]
 
 labels = []
 for i in range(4):
@@ -472,6 +469,13 @@ labels.append("ext_epo_3")
 labels.append("merlin")
 labels.append("lira")
 labels.append("blindwalk")
+```
+
+```python
+
+scenario = "cifar10_inf"
+r = permutation_importance(meta_clfs[scenario], X_for_meta[scenario], Y_for_meta[scenario], n_repeats=10, random_state=0)
+sort_idx = r.importances_mean.argsort()[::-1]
 
 plt.boxplot(
     r.importances[sort_idx].T, labels=[labels[i] for i in sort_idx]
@@ -488,34 +492,57 @@ for i in sort_idx[::-1]:
     )
 ```
 
-![png](./cifar10_19_0.png)
+The abs-sum and range of gradient alignment values across reference models seem to be most useful.
+Features like LiRA and gradient norms in the extended-epoch simulation also seem to be important for the case of no DP.
 
-    [12] range_4   : 0.000 +/- 0.000
-    [23] merlin    : 0.000 +/- 0.000
-    [2] min_1     : 0.000 +/- 0.000
-    [3] max_1     : 0.000 +/- 0.000
-    [19] adv_ascent_diff: 0.000 +/- 0.000
-    [18] adv_ascent_loss: 0.000 +/- 0.000
-    [6] min_2     : 0.000 +/- 0.000
-    [7] max_2     : 0.000 +/- 0.000
-    [17] ascent_diff: 0.000 +/- 0.000
-    [10] min_3     : 0.000 +/- 0.000
-    [11] max_3     : 0.000 +/- 0.000
-    [16] ascent_loss: 0.000 +/- 0.000
-    [14] min_4     : 0.000 +/- 0.000
-    [8] range_3   : 0.004 +/- 0.004
-    [25] blindwalk : 0.005 +/- 0.002
-    [4] range_2   : 0.008 +/- 0.005
-    [20] ext_epo_1 : 0.009 +/- 0.005
-    [1] abssum_1  : 0.011 +/- 0.006
-    [0] range_1   : 0.011 +/- 0.004
-    [15] max_4     : 0.023 +/- 0.006
-    [13] abssum_4  : 0.027 +/- 0.005
-    [24] lira      : 0.029 +/- 0.004
-    [5] abssum_2  : 0.032 +/- 0.008
-    [21] ext_epo_2 : 0.037 +/- 0.005
-    [22] ext_epo_3 : 0.044 +/- 0.005
-    [9] abssum_3  : 0.045 +/- 0.007
+![png](./cifar10_inf.png)
+
+    ...
+    [20] ext_epo_1 : 0.010 +/- 0.001
+    [0] range_1   : 0.013 +/- 0.001
+    [15] max_4     : 0.016 +/- 0.003
+    [13] abssum_4  : 0.026 +/- 0.003
+    [5] abssum_2  : 0.028 +/- 0.003
+    [24] lira      : 0.045 +/- 0.002
+    [9] abssum_3  : 0.047 +/- 0.003
+    [21] ext_epo_2 : 0.054 +/- 0.003
+    [22] ext_epo_3 : 0.064 +/- 0.003
+
+However, the same trend does not hold when looking at models with DP.
+
+![png](./cifar10_hi.png)
+
+    ...
+    [22] ext_epo_3 : 0.018 +/- 0.002
+    [1] abssum_1  : 0.020 +/- 0.003
+    [12] range_4   : 0.020 +/- 0.003
+    [0] range_1   : 0.020 +/- 0.002
+    [13] abssum_4  : 0.023 +/- 0.003
+    [5] abssum_2  : 0.024 +/- 0.003
+    [9] abssum_3  : 0.027 +/- 0.002
+    [24] lira      : 0.053 +/- 0.003
+
+In this case, most of the classifier's performance seems to originate from LiRA, followed by features extracted from reference models. However, features like the one
+extracted from the extended-epoch simulation seem to be less somewhat important - in fact, more than they are in the case of no DP.
+
+Interestingly, for the case of low-$\epsilon$ DP, merlin-based features turn out to be the most important.
+
+![png](./cifar10_lo.png)
+
+    ...
+    [15] max_4     : 0.012 +/- 0.002
+    [1] abssum_1  : 0.014 +/- 0.003
+    [14] min_4     : 0.014 +/- 0.002
+    [24] lira      : 0.016 +/- 0.002
+    [8] range_3   : 0.017 +/- 0.003
+    [20] ext_epo_1 : 0.027 +/- 0.004
+    [23] merlin    : 0.028 +/- 0.002
+
+The utility of each of these features, though, is significantly lower than scenarios with higher-$\epsilon$ DP, or no DP at all. This is understandable, since the DP is very much intended
+to reduce membership inference risk. However, it is interesting that the relative utility of features is not same across the scenarios, further showing why having individual meta-classifiers for the
+scenarios is useful.
+
+<hr>
 
 Next, we collect features for all models across scenarios and phases. Helps to re-use features when experiment with different meta-classifiers. No need to re-run for 'train' models, since we already have features for those.
 

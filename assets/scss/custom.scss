@@ -1,0 +1,9 @@
+.article-container {
+  max-width: 60%;
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+  .article-container {
+      max-width: 90%;
+    }
+}
