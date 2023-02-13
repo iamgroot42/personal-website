@@ -26,6 +26,8 @@ design:
 ## 2023
 
 - Reviewer duties: ICLR, ICML, CVPR
+- (February) Presented our work on [Dissecting Distribution Inference](https://www.anshumansuri.me/publication/ddi/) at [SaTML](https://satml.org/) in Raleigh!
+- (January) [Runner-up](https://microsoft.github.io/MICO/) for the MICO challenge (CIFAR track), co-located with SaTML!
 
 ## 2022
 

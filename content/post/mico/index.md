@@ -37,7 +37,8 @@ tags:
 ---
 
 Here I describe my approach to the [MICO challenge](https://github.com/microsoft/MICO), co-located with [SaTML](https://satml.org/) 2023. Specifically, I walk through my solution for the
- [CIFAR track](https://codalab.lisn.upsaclay.fr/competitions/8551), which got me the [second position on the final leaderboard](https://codalab.lisn.upsaclay.fr/competitions/8551#results). I used the same approach for the Purchase100 track as well, but finished fourth.
+ [CIFAR track](https://codalab.lisn.upsaclay.fr/competitions/8551), which got me the [second position on the final leaderboard](https://codalab.lisn.upsaclay.fr/competitions/8551#results).
+ I used the same approach for the Purchase100 track as well, but finished fourth. A description of all the winning approaches can be found [here](https://microsoft.github.io/MICO/).
 
 Let's start by downloading relevant data from the MICO competition, which can be found [here](https://codalab.lisn.upsaclay.fr/competitions/8551#participate-submit_results) (for CIFAR).
 
