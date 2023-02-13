@@ -19,8 +19,8 @@ bio: My research interests include privacy and security in machine learning.
 # Interests to show in About widget
 interests:
 - Machine Learning Privacy
+- Distribution/Property Inference
 - Adversarial Machine Learning
-- Information Retrieval
 
 # Education to show in About widget
 education:
