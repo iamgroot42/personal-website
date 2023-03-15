@@ -1,13 +1,14 @@
 ---
-title: "Dissecting Distribution Inference"
+title: "Manipulating Transfer Learning for Property Inference"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
+- Yulong Tian
+- Fnu Suya
 - admin
-- Yifu Lu
-- Yanjin Chen
+- Fengyuan Xu
 - David Evans
 
 # Author notes (optional)
