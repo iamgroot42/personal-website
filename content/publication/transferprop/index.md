@@ -47,7 +47,7 @@ tags: ["property inference", "distribution inference", "transfer learning"]
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://arxiv.org/abs/2303.11643'
 url_code: 'https://github.com/yulongt23/Manipulating-Transfer-Learning-for-Property-Inference'
 url_dataset: ''
 url_poster: ''
