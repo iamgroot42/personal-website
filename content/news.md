@@ -25,13 +25,13 @@ design:
 
 ## 2023
 
-- Reviewer duties: ICLR, ICML, CVPR
+- Reviewer duties: ICLR, ICML, CVPR, [ICML Workshop on Federated Learning and Analytics in Practice (FL-ICML)](https://fl-icml2023.github.io/)
 - (February) Presented our work on [Dissecting Distribution Inference](https://www.anshumansuri.me/publication/ddi/) at [SaTML](https://satml.org/) in Raleigh!
 - (January) [Runner-up](https://microsoft.github.io/MICO/) for the MICO challenge (CIFAR track), co-located with SaTML!
 
 ## 2022
 
-- Reviewer duties: NeurIPS, ICLR, ICML, CVPR, ARR, TPAMI, ICLR Workshop on Socially Responsible Machine Learning
+- Reviewer duties: NeurIPS, ICLR, ICML, CVPR, ARR, TPAMI, [ICLR Workshop on Socially Responsible Machine Learning (SRML)](https://iclrsrml.github.io/)
 - (December) Passed my PhD Dissertation Proposal!
 - (November) Appointed Social Rep for the CS Department Graduate Student Group ([CSGSG](https://csgsg.org/)) for Spring 2023.
 - (September) Gave remote talks on our ongoing work with distribution inference at the [University of Melbourne](https://cis.unimelb.edu.au/) and at [IIITH](https://precog.iiit.ac.in/). 
@@ -41,14 +41,14 @@ design:
 
 ## 2021
 
-- Reviewer duties: ICLR ([Outstanding Reviewer](https://www.google.com/url?q=https%3A%2F%2Ficlr.cc%2FConferences%2F2021%2FReviewers&sa=D)), NeurIPS, ICCV ([Outstanding Reviewer](https://iccv2021.thecvf.com/outstanding-reviewers)), EMNLP, ACL-IJCNLP, ICLR Workshop on Security and Safety in Machine Learning Systems, CVPR Workshop on Adversarial Machine Learning in Real-World Computer Vision Systems and Online Challenges (AML-CV), ICML Workshop on Socially Responsible Machine Learning, Workshop on Adversarial Robustness In the Real World (ICCV)
+- Reviewer duties: ICLR ([Outstanding Reviewer](https://www.google.com/url?q=https%3A%2F%2Ficlr.cc%2FConferences%2F2021%2FReviewers&sa=D)), NeurIPS, ICCV ([Outstanding Reviewer](https://iccv2021.thecvf.com/outstanding-reviewers)), EMNLP, ACL-IJCNLP, [ICLR Workshop on Security and Safety in Machine Learning Systems](https://aisecure-workshop.github.io/aml-iclr2021/), [CVPR Workshop on Adversarial Machine Learning in Real-World Computer Vision Systems and Online Challenges (AML-CV)](https://aisecure-workshop.github.io/amlcvpr2021/), [ICML Workshop on Socially Responsible Machine Learning, Workshop on Adversarial Robustness In the Real World (ICCV)](https://icmlsrml2021.github.io/)
 - (September) Passed my PhD Qualifying Exam!
 - (September) Starting an internship at Oracle Research this semester! Will be working on investigating aspects of Privacy in Machine Learning systems.
 - (February) TA for [CS4501: Introduction to Computer Vision](https://www.vicenteordonez.com/vision/) this Spring
 
 ## 2020
 
-- Reviewer duties: ACL, ECCV Workshop on Adversarial Robustness in the Real World
+- Reviewer duties: ACL, [ECCV Workshop on Adversarial Robustness in the Real World](https://eccv20-adv-workshop.github.io/)
 - (Dec) I will be giving a talk on Property Inference Attacks at the 5th Microsoft Security Data Science Colloquium
 - (October) Co-President of [Animal Justice Advocates at UVa](http://sites.google.com/view/ajauva/). Look forward to helping our University transition to cruelty-free practices and alternatives!
 - (August) TA for [CS 6501/4501: Vision and Language](https://www.vicenteordonez.com/vislang/) this Fall
