@@ -25,7 +25,7 @@ design:
 
 ## 2023
 
-- Reviewer duties: ICLR, ICML, CVPR, [ICML Workshop on Federated Learning and Analytics in Practice (FL-ICML)](https://fl-icml2023.github.io/)
+- Reviewer duties: NeurIPS, ICLR, ICML, CVPR, [ICML Workshop on Federated Learning and Analytics in Practice (FL-ICML)](https://fl-icml2023.github.io/)
 - (February) Presented our work on [Dissecting Distribution Inference](https://www.anshumansuri.me/publication/ddi/) at [SaTML](https://satml.org/) in Raleigh!
 - (January) [Runner-up](https://microsoft.github.io/MICO/) for the MICO challenge (CIFAR track), co-located with SaTML!
 
