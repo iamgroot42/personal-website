@@ -23,6 +23,10 @@ design:
   columns: "1"
 ---
 
+## 2024
+
+- Reviewer duties: ICLR
+
 ## 2023
 
 - (June) Leading a reading group on [Causal Learning](https://iamgroot42.github.io/causal-reading-group-23/) this summer at UVA, along with [Hannah Chen](https://hannahxchen.github.io/).
