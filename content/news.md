@@ -29,6 +29,7 @@ design:
 
 ## 2023
 
+- (September) Received the Endowed Graduate Fellowship from the School of Engineering and Applied Sciences (SEAS) at UVA, for 2023-24! This fellowship was awarded to a total of 28 graduate students across the entire Engineering school.
 - (June) Leading a reading group on [Causal Learning](https://iamgroot42.github.io/causal-reading-group-23/) this summer at UVA, along with [Hannah Chen](https://hannahxchen.github.io/).
 - (May) [Received the John A. Stankovic Graduate Research Award from the CS deparment at UVA](https://engineering.virginia.edu/cs-department-end-year-award-recipients-2022-2023) for excellence in research during the 2022-2023 academic year.
 - (February) Presented our work on [Dissecting Distribution Inference](https://www.anshumansuri.me/publication/ddi/) at [SaTML](https://satml.org/) in Raleigh!
