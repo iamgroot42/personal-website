@@ -68,6 +68,6 @@ highlight_name: true
 ---
 
 
-I am a fifth year PhD candidate in the Computer Science Department at the [University of Virginia](https://www.virginia.edu/), advised by Professor [David Evans](http://www.cs.virginia.edu/~evans/). My primary area of focus is security/privacy in machine learning.
+I am a final year PhD candidate in the Computer Science Department at the [University of Virginia](https://www.virginia.edu/), advised by Professor [David Evans](http://www.cs.virginia.edu/~evans/). My primary area of research is privacy/security in machine learning, with a focus on distribution inference.
 
 <!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
