@@ -29,6 +29,7 @@ design:
 
 ## 2023
 
+- (October) Created an [awesome list for works on distribution/property](https://github.com/iamgroot42/awesome-distribution-inference/tree/main) inference in ML! 
 - (October) Gave a talk for [session on 'Advice from senior students'](https://csgsg.org/symposium/) at UVA's CS Department Fall Research Symposium ([Wayback link](https://web.archive.org/web/20231003192534/https://csgsg.org/symposium/)).
 - (September) Received the Endowed Graduate Fellowship from the School of Engineering and Applied Sciences (SEAS) at UVA, for 2023-24! This fellowship was awarded to a total of 28 graduate students across the entire Engineering school.
 - (June) Leading a reading group on [Causal Learning](https://iamgroot42.github.io/causal-reading-group-23/) this summer at UVA, along with [Hannah Chen](https://hannahxchen.github.io/).
