@@ -1,6 +1,5 @@
 ---
 title: "SoK: Pitfalls in Evaluating Black-Box Attacks"
-draft: true
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -49,8 +48,8 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://arxiv.org/abs/2310.17534'
+url_code: 'https://github.com/iamgroot42/blackboxsok'
 url_dataset: ''
 url_poster: ''
 url_project: ''
