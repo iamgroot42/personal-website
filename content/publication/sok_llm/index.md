@@ -1,6 +1,6 @@
 ---
 title: "SoK: Memorization in General-Purpose Large Language Models"
-draft: true
+draft: false
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -44,7 +44,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://arxiv.org/abs/2310.18362'
 url_code: ''
 url_dataset: ''
 url_poster: ''
