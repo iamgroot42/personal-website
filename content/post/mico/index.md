@@ -640,4 +640,4 @@ with zipfile.ZipFile(f"submissions_cifar/{experiment_name}.zip", 'w') as zipf:
 
 This was my first stint with actively developing and launching a membership inference attack, and I definitely learned a lot! I can now see that membership inference is **hard**, even when access to a highly-overlapping dataset (and models trained on similar data) are provided. I also learned that while using observation-based features directly (such as LiRA, scaled to the $[0, 1]$ scale) is commonpractice in MI literature, switching to better classifiers than linear regression (better yet- automating the entire model pipeline) can give non-trivial boosts in performance. I hope this post was helpful to you, and I'd love to hear your thoughts and feedback!
 
-My solution (for both CIFAR and Purchase100) are available here: [https://github.com/iamgroot42/MICO](https://github.com/iamgroot42/MICO)
+My solutions (for both CIFAR and Purchase100) are available here: [https://github.com/iamgroot42/MICO](https://github.com/iamgroot42/MICO)
