@@ -3,7 +3,7 @@ title: "My submission to the TDC Trojan Detection Challenge"
 subtitle: "Description of my entry to the TDC Trojan Detection challenge (co-located with NeurIPS 2023)"
 
 # Summary for listings and search engines
-summary: "Description of my entry to the MICO challenge (co-located with SaTML) for membership inference that won me the 2nd place on the CIFAR track."
+summary: "Description of my entry to the TDC Trojan Detection challenge (co-located with NeurIPS 2023)"
 
 # Link this post with a project
 projects: []
