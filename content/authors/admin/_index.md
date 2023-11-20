@@ -70,4 +70,11 @@ highlight_name: true
 
 I am a final year PhD candidate in the Computer Science Department at the [University of Virginia](https://www.virginia.edu/), advised by Professor [David Evans](http://www.cs.virginia.edu/~evans/). My primary area of research is privacy/security in machine learning, with a focus on distribution inference.
 
-<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
+<div class="alert alert-info" role="alert">
+  I am on the job market! Please reach out if you have any questions.
+</div>
+
+Materials:
+- {{< icon name="download" pack="fas" >}} {{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}.
+- {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Research Statement.pdf" "newtab" >}}Research Statement{{< /staticref >}}.
+- {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Teaching Statement.pdf" "newtab" >}}Teaching Statement{{< /staticref >}}.
