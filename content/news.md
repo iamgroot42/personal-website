@@ -25,7 +25,7 @@ design:
 
 ## 2024
 
-- Reviewer duties: ICLR
+- Reviewer duties: ICLR, ICML
 
 ## 2023
 
