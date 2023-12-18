@@ -36,7 +36,7 @@ tags:
 - large language models
 ---
 
-Here I describe my approach to the [TDC Trojan Detection challenge](https://trojandetection.ai/), co-located with [NeurIPS](https://nips.cc/) 2023. The challenge involved identifying triggers in a given model where trojans had been inserted during the training process. Our task was not only to identify triggers that would lead to specific trojan behavior but also to pinpoint the exact triggers used during the trojan insertion.
+Here I describe my approach to the [TDC Trojan Detection challenge](https://trojandetection.ai/), co-located with [NeurIPS](https://nips.cc/) 2023. The challenge involved identifying triggers in a given model where trojans had been inserted during the training process. Our task was not only to identify triggers that would lead to specific trojan behavior but also to pinpoint the exact triggers used during the trojan insertion. My final approach got me a rank of 7(/16) on the large-model subtrack, and 9(/26) on the base-model subtrack.
 
 ## Beam-Search
 Starting with the observation that the input triggers were of variable length, I considered a beam-search-like approach1. Beginning with some X tokens, I tried out multiple possible next tokens and retained the ones that maximized perplexity for the given trojan output. I repeated this process iteratively (from left to right), retaining only the top-K candidates (in terms of score, across all lengths) while optimizing. Here’s what it looked like:
