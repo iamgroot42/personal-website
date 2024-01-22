@@ -23,7 +23,8 @@ design:
   columns: "1"
 ---
 
-- Distribution Inference: New Perspectives in Data Privacy. CS562 Advanced Topics in Security, Privacy, and Machine Learning, UIUC. 17 January 2024.
+- Distribution Inference: New Perspectives in Data Privacy. Princeton. 19 January 2024.
+- Distribution Inference: New Perspectives in Data Privacy. CS562 Advanced Topics in Security, Privacy, and Machine Learning, UIUC (Virtual). 17 January 2024.
 - Advice from Senior Students. UVA CSGSG Research Symposium. 3 October 2023.
 - Distribution Inference. University of Melbourne (Virtual). 14 September 2022.
 - Formalizing and Estimating Distribution Inference Risks: IIITH (Virtual). 29 September 2022.
