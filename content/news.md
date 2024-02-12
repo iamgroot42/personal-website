@@ -31,7 +31,6 @@ design:
 
 - (December) Attended NeurIPS in Louisiana - my first in-person big ML conference! Saw a lot of cool research, especially in areas not directly related to mine.
 - (October) Created an [awesome list for works on distribution/property](https://github.com/iamgroot42/awesome-distribution-inference/tree/main) inference in ML! 
-- (October) Gave a talk for [session on 'Advice from senior students'](https://csgsg.org/symposium/) at UVA's CS Department Fall Research Symposium ([Wayback link](https://web.archive.org/web/20231003192534/https://csgsg.org/symposium/)).
 - (September) Received the Endowed Graduate Fellowship from the School of Engineering and Applied Sciences (SEAS) at UVA, for 2023-24! This fellowship was awarded to a total of 28 graduate students across the entire Engineering school.
 - (June) Leading a reading group on [Causal Learning](https://iamgroot42.github.io/causal-reading-group-23/) this summer at UVA, along with [Hannah Chen](https://hannahxchen.github.io/).
 - (May) [Received the John A. Stankovic Graduate Research Award from the CS deparment at UVA](https://engineering.virginia.edu/cs-department-end-year-award-recipients-2022-2023) for excellence in research during the 2022-2023 academic year!
@@ -58,7 +57,6 @@ design:
 
 ## 2020
 
-- (Dec) I will be giving a talk on Property Inference Attacks at the 5th Microsoft Security Data Science Colloquium
 - (October) Co-President of [Animal Justice Advocates at UVa](http://sites.google.com/view/ajauva/). Look forward to helping our University transition to cruelty-free practices and alternatives!
 - (August) TA for [CS 6501/4501: Vision and Language](https://www.vicenteordonez.com/vislang/) this Fall
 - (May) Leading weekly meetings for the [Adversarial Machine Learning Study Group](https://uvasrg.github.io/advml/) for this Summer, along with [Hannah Chen](https://hannahxchen.github.io/)
@@ -70,7 +68,6 @@ design:
 - (Sep) I will be visiting Penn State from Sept 16-18 with my advisor and our research group for an NSF Site Visit  ([CTML Group](https://ctml.psu.edu/))
 - (Aug) I will be joining the University of Virginia as a PhD student in Computer Science under Professor [David Evans](http://www.cs.virginia.edu/~evans/) this month!
 - (Jul) After working for a delightful 13 months with an amazing set of colleagues, I left Microsoft IDC. They'll all be missed very much!
-- (Apr) I will be visiting the [Intelligent Cloud Conference](https://intelligentcloud.dk/) 2019 in Copenhagen, Denmark in the first week of April to give a talk on my team's work: Project Personality Chat.
 
 ## 2018
 
