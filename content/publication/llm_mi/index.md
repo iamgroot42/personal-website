@@ -52,7 +52,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2402.07841.pdf'
 url_code: 'http://github.com/iamgroot42/mimir'
 url_dataset: 'https://huggingface.co/datasets/iamgroot42/mimir'
 url_poster: ''
