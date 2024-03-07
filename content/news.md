@@ -25,7 +25,7 @@ design:
 
 ## 2024
 
-- Reviewer duties: ICLR, ICML, [PML Workshop at ICLR](https://pml-workshop.github.io/iclr24/)
+- Reviewer duties: ICLR, ICML, ICML Workshop Proposals, [PML Workshop at ICLR](https://pml-workshop.github.io/iclr24/)
 
 ## 2023
 
