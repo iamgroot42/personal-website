@@ -23,6 +23,8 @@ design:
   columns: "1"
 ---
 
+- Do Membership Inference Attacks Work on Large Language Models? University of Washington (Seattle). 25 March, 2024.
+- Do Membership Inference Attacks Work on Large Language Models? Google Research (Seattle). 21 March, 2024.
 - [Do Membership Inference Attacks Work on Large Language Models?](https://drive.google.com/file/d/1vKAHsahwKmy4PsTi7f4K0Z26gfAkXRV2/view) [Cohere for AI](https://cohere.com/events/c4ai-Anshuman-Suri-2024). 2 March, 2024.
 - Distribution Inference: New Perspectives in Data Privacy. [UVA AIML Seminar](https://uvaml.github.io/texts/2024-02-28/). 28 February 2024.
 - Distribution Inference: New Perspectives in Data Privacy. [Princeton](https://ece.princeton.edu/events/distribution-inference-new-perspectives-data-privacy). 19 January 2024.
