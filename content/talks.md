@@ -23,6 +23,7 @@ design:
   columns: "1"
 ---
 
+- Do Membership Inference Attacks Work on Large Language Models? [SAFR AI Lab](https://sethneel.com/safr-ai-lab/), Harvard University (Virtual). 5 April, 2024.
 - Do Membership Inference Attacks Work on Large Language Models? University of Washington (Seattle). 25 March, 2024.
 - Do Membership Inference Attacks Work on Large Language Models? Google Research (Seattle). 21 March, 2024.
 - [Do Membership Inference Attacks Work on Large Language Models?](https://drive.google.com/file/d/1vKAHsahwKmy4PsTi7f4K0Z26gfAkXRV2/view) [Cohere for AI](https://cohere.com/events/c4ai-Anshuman-Suri-2024). 2 March, 2024.
