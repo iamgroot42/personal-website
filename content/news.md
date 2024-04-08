@@ -26,6 +26,7 @@ design:
 ## 2024
 
 - Reviewer duties: ICLR, ICML, ICML Workshop Proposals, [PML Workshop at ICLR](https://pml-workshop.github.io/iclr24/)
+- (April) Presented our work [SoK: Pitfalls in Evaluating Black-Box Attacks](https://arxiv.org/pdf/2310.17534.pdf) at SaTML in Toronto!
 
 ## 2023
 
