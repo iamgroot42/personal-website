@@ -23,6 +23,7 @@ design:
   columns: "1"
 ---
 
+- Do Membership Inference Attacks Work on Large Language Models? [Privacy Team, CAS](https://research.facebook.com/teams/cas/), Meta (Remote). 12 April, 2024.
 - Distribution Inference: New Perspectives in Data Privacy. Vector Institute (Virtual). 12 April, 2024.
 - Do Membership Inference Attacks Work on Large Language Models? [SAFR AI Lab](https://sethneel.com/safr-ai-lab/), Harvard University (Virtual). 5 April, 2024.
 - Do Membership Inference Attacks Work on Large Language Models? University of Washington (Seattle). 25 March, 2024.
