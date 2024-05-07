@@ -26,7 +26,7 @@ design:
 ## 2024
 
 - (April) Presented our work [SoK: Pitfalls in Evaluating Black-Box Attacks](https://arxiv.org/pdf/2310.17534.pdf) at SaTML in Toronto!
-- Reviewer duties: NeurIPS, ICLR, ICML, ICML Workshop Proposals, [PML Workshop at ICLR](https://pml-workshop.github.io/iclr24/)
+- Reviewer duties: NeurIPS, ICLR, ICML, ICML Workshop Proposals, [PML Workshop at ICLR](https://pml-workshop.github.io/iclr24/), [AISec Workshop at CCS](https://aisec.cc/)
 
 ## 2023
 
