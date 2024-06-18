@@ -30,10 +30,8 @@ publication_types: ["1"]
 publication: In *High-dimensional Learning Dynamics Workshop, ICML 2024*
 publication_short: In *HiLD, ICML 2024*
 
-abstract: Membership inference attacks aim to infer whether an individual record was used to train a model, serving as a key tool for disclosure auditing.
-While such evaluations are useful to demonstrate risk, they are computationally expensive and often make strong assumptions about potential adversaries' access to models and training environments, and thus do not provide very tight bounds on leakage from potential attacks.
-We show how prior claims around black-box access being sufficient for optimal membership inference do not hold for most useful settings such as stochastic gradient descent, and that optimal membership inference indeed requires white-box access.
-We validate our findings with a new white-box inference attack _IHA_ (Inverse Hessian Attack) that explicitly uses model parameters by taking advantage of computing inverse-Hessian vector products. Our results show that both audits and adversaries may be able to benefit from access to model parameters, and we advocate for further research into white-box methods for membership privacy auditing.
+abstract: "Membership inference attacks aim to infer whether an individual record was used to train a model, serving as a key tool for disclosure auditing.
+While such evaluations are useful to demonstrate risk, they are computationally expensive and often make strong assumptions about potential adversaries' access to models and training environments, and thus do not provide very tight bounds on leakage from potential attacks. We show how prior claims around black-box access being sufficient for optimal membership inference do not hold for most useful settings such as stochastic gradient descent, and that optimal membership inference indeed requires white-box access. We validate our findings with a new white-box inference attack IHA (Inverse Hessian Attack) that explicitly uses model parameters by taking advantage of computing inverse-Hessian vector products. Our results show that both audits and adversaries may be able to benefit from access to model parameters, and we advocate for further research into white-box methods for membership privacy auditing."
 
 # Summary. An optional shortened abstract.
 summary: We show how prior claims about black-box access sufficing for optimal membership inference do not hold for most useful settings such as SGD, and validate our findings with a new white-box inference attack.
