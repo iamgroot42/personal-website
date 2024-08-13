@@ -23,10 +23,14 @@ design:
   columns: "1"
 ---
 
+## 2025
+
+- Reviewer duties: ICLR
+
 ## 2024
 
 - (April) Presented our work [SoK: Pitfalls in Evaluating Black-Box Attacks](https://arxiv.org/pdf/2310.17534.pdf) at SaTML in Toronto!
-- Reviewer duties: NeurIPS, ICLR, ICML, ICML Workshop Proposals, [PML Workshop at ICLR](https://pml-workshop.github.io/iclr24/), [AISec Workshop at CCS](https://aisec.cc/)
+- Reviewer duties: NeurIPS, ICLR, ICML ([Outstanding Reviewer](https://x.com/icmlconf/status/1815647580577059312)), ICML Workshop Proposals, [PML Workshop at ICLR](https://pml-workshop.github.io/iclr24/), [AISec Workshop at CCS](https://aisec.cc/)
 
 ## 2023
 
