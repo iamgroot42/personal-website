@@ -6,12 +6,12 @@ title: Anshuman Suri
 superuser: true
 
 # Role/position/tagline
-role: PhD Student
+role: Postdoc
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: University of Virginia
-  url: https://engineering.virginia.edu/departments/computer-science
+- name: Northeastern University
+  url: https://www.khoury.northeastern.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include privacy and security in machine learning.
@@ -21,13 +21,14 @@ interests:
 - Machine Learning Privacy
 - Distribution/Property Inference
 - Adversarial Machine Learning
+- Privac/Security in RAG systems
 
 # Education to show in About widget
 education:
   courses:
   - course: PhD in Computer Science
     institution: University of Virginia
-    year: 2019-Present
+    year: 2019-2024
   - course: B.Tech (Hons) in Computer Science
     institution: IIIT-Delhi
     year: 2014-2018
@@ -61,11 +62,10 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "anshuman[at]virginia.edu"
+email: "as9rw[at]virginia.edu"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-
-I am a final year PhD candidate in the Computer Science Department at the [University of Virginia](https://www.virginia.edu/), advised by Professor [David Evans](http://www.cs.virginia.edu/~evans/). My primary area of research is privacy/security in machine learning, with a focus on distribution inference.
+I am a postdoctoral fellow at [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu/) at [Northeastern University](https://www.northeastern.edu/), supervised by [Alina Oprea](https://www.khoury.northeastern.edu/home/alina/). I obtained my PhD from [University of Virginia](https://www.virginia.edu/), where I was advised by Professor [David Evans](http://www.cs.virginia.edu/~evans/). My primary area of research is privacy/security in machine learning at a broad level, with fine-grained topics exploring membership inference, user inference, LLMs/RAG systems.

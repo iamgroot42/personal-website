@@ -29,6 +29,10 @@ design:
 
 ## 2024
 
+- (October) Presented our work [Do Membership Inference Attacks Work on Large Language Models?](https://arxiv.org/pdf/2402.07841) at [COLM](https://colmweb.org/cfp.html) in Philadelphia. 
+- (September) Started as a postdoc at Khoury, Northeastern supervised by [Alina Oprea](https://www.khoury.northeastern.edu/home/alina/). Hello, Boston!
+- (July) [Xiao](https://xiao-zhang.net/) presented our work [Do Parameters Reveal More than Loss for Membership Inference](https://arxiv.org/pdf/2406.11544) at the [HiLD workshop at ICML](https://sites.google.com/view/hidimlearning/home) in Vienna!
+- (July) Defended my thesis on [Inference Privacy in Machine Learning](https://uvasrg.github.io/congratulations-dr.-suri/)! Say hello to Dr. Suri :) 
 - (April) Presented our work [SoK: Pitfalls in Evaluating Black-Box Attacks](https://arxiv.org/pdf/2310.17534.pdf) at SaTML in Toronto!
 - Reviewer duties: NeurIPS, ICLR, ICML ([Outstanding Reviewer](https://x.com/icmlconf/status/1815647580577059312)), ICML Workshop Proposals, [PML Workshop at ICLR](https://pml-workshop.github.io/iclr24/), [AISec Workshop at CCS](https://aisec.cc/)
 
