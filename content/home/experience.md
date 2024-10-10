@@ -24,13 +24,22 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Postdoctoral Fellow
+    company: Northeastern University
+    company_url: 'https://www.khoury.northeastern.edu/'
+    company_logo: neu
+    location: Boston, USA
+    date_start: '2024-09-01'
+    date_end: ''
+    description: Research on security and privacy in Machine Learning and LLMs at [NDS2](https://nds2.ccs.neu.edu/) lab.
+
   - title: Graduate Research Assistant
     company: University of Virginia
     company_url: 'https://engineering.virginia.edu/departments/computer-science'
     company_logo: uva
     location: Virginia, USA
     date_start: '2019-08-25'
-    date_end: ''
+    date_end: '2024-07-18'
     description: Research on privacy and security in Machine Learning at [SRG](https://uvasrg.github.io/).
   
   - title: Research Assistant (Internship)
