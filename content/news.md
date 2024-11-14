@@ -29,6 +29,7 @@ design:
 
 ## 2024
 
+- (November) UVA Engineering [covered a story](https://engineering.virginia.edu/news-events/news/common-way-test-leaks-large-language-models-may-be-flawed) on our work on evaluating [Membership Inference Attacks Work on Large Language Models?](https://arxiv.org/pdf/2402.07841).
 - (October) Presented our work [Do Membership Inference Attacks Work on Large Language Models?](https://arxiv.org/pdf/2402.07841) at [COLM](https://colmweb.org/cfp.html) in Philadelphia. 
 - (September) Started as a postdoc at Khoury, Northeastern supervised by [Alina Oprea](https://www.khoury.northeastern.edu/home/alina/). Hello, Boston!
 - (July) [Xiao](https://xiao-zhang.net/) presented our work [Do Parameters Reveal More than Loss for Membership Inference](https://arxiv.org/pdf/2406.11544) at the [HiLD workshop at ICML](https://sites.google.com/view/hidimlearning/home) in Vienna!
